@@ -1,0 +1,9 @@
+
+stages:
+- stage: DragonStage
+  displayName: 'Dragon Stage - StageTemplates'
+  jobs:
+  - job: JobInDragonStage
+    displayName: 'Dragon job - JobInDragonStage - StageTemplates'
+    steps:
+    - script: echo "Hello Template Stage"
